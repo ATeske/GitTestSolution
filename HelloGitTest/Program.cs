@@ -6,7 +6,11 @@ namespace HelloGitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello GitHub!");
+            Console.WriteLine("Bitte geben Sie Ihren Nachnamen ein.");
+
+            var name = Console.ReadLine();
+
+            Console.WriteLine("Hallo " + name);
         }
     }
 }
